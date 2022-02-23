@@ -52,7 +52,6 @@ ul.tabs {
 }
 
 .pic {
-	width : 100%;
 	min-height : 950px;
 	background-color : #4e545c;
 	position : relative;
@@ -84,7 +83,8 @@ ul.tabs {
 
 .lab_ex {
 	padding-top : 150px;
-	font-size : 25px;
+	font-size : 22.5px;
+	width : 100%;
 	color : white;
 }
 

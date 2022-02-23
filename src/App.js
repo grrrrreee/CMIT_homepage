@@ -44,7 +44,7 @@ class App extends React.Component {
 					<ul className="tabs">
                                                 <li className={`${this.state.menu===0? 'active': ''}`} onClick={() => this.changeMenu(0)}>Home</li>
 						<li className={`${this.state.menu===1? 'active': ''}`} onClick={() => this.changeMenu(1)}>Professor</li>
-						<li className={`${this.state.menu===2? 'active': ''}`} onClick={() => this.changeMenu(2)}>Members & Alumni</li>
+						{/*<li className={`${this.state.menu===2? 'active': ''}`} onClick={() => this.changeMenu(2)}>Members & Alumni</li>*/}
 						<li className={`${this.state.menu===3? 'active': ''}`} onClick={() => this.changeMenu(3)}>Publication</li>
 						<li className={`${this.state.menu===4? 'active': ''}`} onClick={() => this.changeMenu(4)}>Teaching</li>
 					</ul>
