@@ -1,0 +1,148 @@
+.menuBar {
+	width: 100%;
+	display : inline-block;
+	height : 80px;
+	border-bottom : solid 3px gray;
+	margin-bottom : 0.1rem;
+}
+
+ul.app-header {
+	float : left;
+}
+
+ul.tabs {
+	float : right;
+	margin-right : 1.25rem;
+}
+
+.tabs li {
+	font-size : 1.25rem;
+	font-weight : bold;
+	display : inline-block;
+	color : #000000;
+	padding : 0.75rem;
+	height : 20px;
+}
+
+.tabs li.active {
+	background-color : #1c141426;
+	height : 100%;
+}
+
+.contentArea {
+	height : 750px, 100%;
+}
+
+.theparent {
+	min-height : 950px;
+}
+
+.secondParent {
+	display: flex;
+	min-height : 950px;
+}
+
+.ppic {
+	display : inline-block;
+	margin-top : 1rem;
+	margin-bottom : 1rem;
+	height: 550px;
+	width : 550px;
+	flex : 1
+}
+
+.pic {
+	width : 100%;
+	min-height : 950px;
+	background-color : #4e545c;
+	position : relative;
+	padding-top : 100px;
+	padding-left : 100px;
+	z-index : 1;
+}
+
+.pic::after {
+	width : 100%;
+	height : 100%;
+	content: "";
+	position : absolute;
+	top : 0;
+	left : 0;
+	background : url("./components/1.jpg");
+	z-index : -1;
+	opacity : 0.2;
+}
+
+.pic h1, h2 {
+	color : white;
+}
+
+.CMIT {
+	color : #8dd9ff;
+	font-weight: bold;
+}
+
+.lab_ex {
+	padding-top : 150px;
+	font-size : 25px;
+	color : white;
+}
+
+.p_career {
+	margin-top : 1rem;
+	margin-left : 2rem;
+	margin-bottom : 1rem;
+	flex : 1
+}
+
+#p_mother {
+	display : flex;
+	justify-content : space-evenly
+}
+
+.p_box {
+	height : 250px;
+	width : 550px;
+	background-color : red;
+	margin-right : 1rem;
+	margin-bottom : 1rem;
+	display : flex;
+}
+
+.p_box * {
+	margin-top : 1rem;
+}
+
+.p_box .p_box_profile {
+	height : 200px;
+	background-color : blue;
+	margin-left : 1rem;
+	flex : 1;
+}
+
+.p_box .p_box_info {
+	margin-left : 1rem;
+	width : 40%;
+	flex : 1;
+}
+
+.header{
+  cursor: pointer;
+  border: solid 1px #f2f2f2;
+  padding: 15px;
+  background-color: #0089CC;
+  color: #FFF;
+  font-family: verdana;
+}
+
+.content{
+  cursor: pointer;
+  border-left: solid 1px #f2f2f2;
+  border-right: solid 1px #f2f2f2;
+  border-bottom: solid 1px #f2f2f2;
+  border-radius: 0 0 5px 5px;
+  padding: 15px;
+  color : black;
+  font-family: verdana;
+  font-size: 14px;
+}

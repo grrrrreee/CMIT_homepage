@@ -1,0 +1,14 @@
+.app-footer {
+	border : 1.5px;
+	margin-top : 3px; 
+	padding-top : 7px;
+	background-color: #1c141426;
+	height : 150px;
+	width : 100%;
+	line-height : 0.85;
+}
+
+.app-footer > .infoot {
+	padding-right : 15px;
+	text-align : right;
+}
