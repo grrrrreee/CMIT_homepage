@@ -8,9 +8,10 @@ class Fifth extends React.Component {
 
                 this.state= {
                         menu:0,
-			open : false,
-			open2 : false,
-			open3 : false
+			open : true,
+			open2 : true,
+			open3 : true,
+			open4 : true
                 };
 		this.togglePanel = this.togglePanel.bind(this);
 		this.togglePanel2 = this.togglePanel2.bind(this);

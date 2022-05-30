@@ -4,66 +4,66 @@ import Collapsible from 'react-collapsible';
 
 class Fourth extends React.Component {
         constructor(props) {
-                super();
+            super();
 
-                this.state= {
-                        menu:0,
-			open : false,
-			open2 : false,
-			open3 : false,
-			open4 : false,
-			open5 : false,
-			open6 : false,
-			open7 : false,
-			open8 : false,
-			open9 : false
-                };
-		this.togglePanel = this.togglePanel.bind(this);
-		this.togglePanel2 = this.togglePanel2.bind(this);
-		this.togglePanel3 = this.togglePanel3.bind(this);
-		this.togglePanel4 = this.togglePanel4.bind(this);
-		this.togglePanel5 = this.togglePanel5.bind(this);
-		this.togglePanel6 = this.togglePanel6.bind(this);
-		this.togglePanel7 = this.togglePanel7.bind(this);
-		this.togglePanel8 = this.togglePanel8.bind(this);
-		this.togglePanel9 = this.togglePanel9.bind(this);
+        	this.state= {
+				menu:0,
+				open : true,
+				open2 : true,
+				open3 : true,
+				open4 : true,
+				open5 : true,
+				open6 : true,
+				open7 : true,
+				open8 : true,
+				open9 : true
+        	};
+			this.togglePanel = this.togglePanel.bind(this);
+			this.togglePanel2 = this.togglePanel2.bind(this);
+			this.togglePanel3 = this.togglePanel3.bind(this);
+			this.togglePanel4 = this.togglePanel4.bind(this);
+			this.togglePanel5 = this.togglePanel5.bind(this);
+			this.togglePanel6 = this.togglePanel6.bind(this);
+			this.togglePanel7 = this.togglePanel7.bind(this);
+			this.togglePanel8 = this.togglePanel8.bind(this);
+			this.togglePanel9 = this.togglePanel9.bind(this);
         }
 
-	togglePanel(e) {
-		this.setState({open : !this.state.open})
-	}
+		togglePanel(e) {
+			this.setState({open : !this.state.open})
+		}
 
-	togglePanel2(e) {
-		this.setState({open2 : !this.state.open2})
-	}
+		togglePanel2(e) {
+			this.setState({open2 : !this.state.open2})
+		}
 
-	togglePanel3(e) {
-		this.setState({open3 : !this.state.open3})
-	}
-	
-	togglePanel4(e) {
-		this.setState({open4 : !this.state.open4})
-	}
+		togglePanel3(e) {
+			this.setState({open3 : !this.state.open3})
+		}
+		
+		togglePanel4(e) {
+			this.setState({open4 : !this.state.open4})
+		}
 
-	togglePanel5(e) {
-		this.setState({open5 : !this.state.open5})
-	}
+		togglePanel5(e) {
+			this.setState({open5 : !this.state.open5})
+		}
 
-	togglePanel6(e) {
-		this.setState({open6 : !this.state.open6})
-	}
-	
-	togglePanel7(e) {
-		this.setState({open7 : !this.state.open7})
-	}
+		togglePanel6(e) {
+			this.setState({open6 : !this.state.open6})
+		}
+		
+		togglePanel7(e) {
+			this.setState({open7 : !this.state.open7})
+		}
 
-	togglePanel8(e){
-		this.setState({open8 : !this.state.open8})
-	}
+		togglePanel8(e){
+			this.setState({open8 : !this.state.open8})
+		}
 
-	togglePanel9(e){
-		this.setState({open9 : !this.state.open9})
-	}
+		togglePanel9(e){
+			this.setState({open9 : !this.state.open9})
+		}
 
         render(){
                 return(

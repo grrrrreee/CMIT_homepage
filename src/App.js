@@ -5,6 +5,7 @@ import Second from './components/Second';
 import Third from './components/Third';
 import Fourth from './components/Fourth';
 import Fifth from './components/Fifth';
+import Sixth from './components/Sixth';
 
 import Header from './Header';
 import Footer from './Footer';
@@ -17,6 +18,7 @@ const menuList = {
 	2: <Third/>,
 	3: <Fourth/>,
 	4: <Fifth/>,
+	5: <Sixth/>
 };
 
 class App extends React.Component {
@@ -42,11 +44,12 @@ class App extends React.Component {
 						</a>
 					</ul>
 					<ul className="tabs">
-                                                <li className={`${this.state.menu===0? 'active': ''}`} onClick={() => this.changeMenu(0)}>Home</li>
+                        <li className={`${this.state.menu===0? 'active': ''}`} onClick={() => this.changeMenu(0)}>Home</li>
 						<li className={`${this.state.menu===1? 'active': ''}`} onClick={() => this.changeMenu(1)}>Professor</li>
-						{/*<li className={`${this.state.menu===2? 'active': ''}`} onClick={() => this.changeMenu(2)}>Members & Alumni</li>*/}
+						<li className={`${this.state.menu===2? 'active': ''}`} onClick={() => this.changeMenu(2)}>Members</li>
 						<li className={`${this.state.menu===3? 'active': ''}`} onClick={() => this.changeMenu(3)}>Publication</li>
 						<li className={`${this.state.menu===4? 'active': ''}`} onClick={() => this.changeMenu(4)}>Teaching</li>
+						<li className={`${this.state.menu===5? 'active': ''}`} onClick={() => this.changeMenu(5)}>Project</li>
 					</ul>
 				</div>
 				<div className="contentArea">

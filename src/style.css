@@ -129,7 +129,7 @@ ul.tabs {
 .header{
   cursor: pointer;
   border: solid 1px #f2f2f2;
-  padding: 15px;
+  padding: 11.25px;
   background-color: #0089CC;
   color: #FFF;
   font-family: verdana;
@@ -145,4 +145,8 @@ ul.tabs {
   color : black;
   font-family: verdana;
   font-size: 14px;
+}
+
+.img {
+	width : 50%;
 }
