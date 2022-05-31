@@ -47,11 +47,11 @@ class Fifth extends React.Component {
                                 </div>
                                  {this.state.open ? (
                                         <div className='content'>
-                                        <li>1st Semester, Undergraduate 건설계획및시공(Construction Planning, Equipment and Methods)</li>
-                                        <li>1st Semester, Graduate School 전공연구 1(Studies in Major Field 1)</li>
-                                        <li>1st Semester, Graduate School 전공연구 2(Studies in Major Field 2)</li>
-                                        <li>1st Semester, Graduate School 프로젝트연구 2(Lab Activity 2)</li>
-					<li>1st Semester, Graduate School 프로젝트연구 3(Lab Activity 3)</li>
+											<li>1st Semester, Undergraduate 건설계획및시공(Construction Planning, Equipment and Methods)</li>
+											<li>1st Semester, Graduate School 전공연구 1(Studies in Major Field 1)</li>
+											<li>1st Semester, Graduate School 전공연구 2(Studies in Major Field 2)</li>
+											<li>1st Semester, Graduate School 프로젝트연구 2(Lab Activity 2)</li>
+											<li>1st Semester, Graduate School 프로젝트연구 3(Lab Activity 3)</li>
                                                 {this.props.children}
                                         </div>
                                  ) : null}
@@ -61,13 +61,13 @@ class Fifth extends React.Component {
 				</div>
        				 {this.state.open2 ? (
             				<div className='content'>
-					<li>1st Semester, Undergraduate 건설계획및시공(Construction Planning, Equipment and Methods)</li>
-					<li>1st Semester, Graduate School 고급공정계획(Advanced Project Planning)</li>
-                                        <li>1st Semester, Graduate School 전공연구 2(Studies in Major Field 2)</li>
-					<li>1st Semester, Graduate School 프로젝트연구2(Lab Activity 2)</li>
-                                        <li>2nd Semester, Undergraduate 건설사업관리학(Construction Project Management)</li>
-                                        <li>2nd Semester, Graduate School 프로젝트연구 2(Lab Activity 2)</li>
-					<li>2nd Semester, Graduate School 프로젝트연구 3(Lab Activity 3)</li>
+									<li>1st Semester, Undergraduate 건설계획및시공(Construction Planning, Equipment and Methods)</li>
+									<li>1st Semester, Graduate School 고급공정계획(Advanced Project Planning)</li>
+									<li>1st Semester, Graduate School 전공연구 2(Studies in Major Field 2)</li>
+									<li>1st Semester, Graduate School 프로젝트연구2(Lab Activity 2)</li>
+									<li>2nd Semester, Undergraduate 건설사업관리학(Construction Project Management)</li>
+									<li>2nd Semester, Graduate School 프로젝트연구 2(Lab Activity 2)</li>
+									<li>2nd Semester, Graduate School 프로젝트연구 3(Lab Activity 3)</li>
                 				{this.props.children}
             				</div>
            			 ) : null}
