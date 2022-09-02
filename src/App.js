@@ -6,6 +6,7 @@ import Third from './components/Third';
 import Fourth from './components/Fourth';
 import Fifth from './components/Fifth';
 import Sixth from './components/Sixth';
+import Seventh from './components/Seventh';
 
 import Header from './Header';
 import Footer from './Footer';
@@ -18,7 +19,8 @@ const menuList = {
 	2: <Third/>,
 	3: <Fourth/>,
 	4: <Fifth/>,
-	5: <Sixth/>
+	5: <Sixth/>,
+	6: <Seventh/>
 };
 
 class App extends React.Component {
@@ -50,6 +52,7 @@ class App extends React.Component {
 						<li className={`${this.state.menu===3? 'active': ''}`} onClick={() => this.changeMenu(3)}>Publication</li>
 						<li className={`${this.state.menu===4? 'active': ''}`} onClick={() => this.changeMenu(4)}>Teaching</li>
 						<li className={`${this.state.menu===5? 'active': ''}`} onClick={() => this.changeMenu(5)}>Project</li>
+						<li className={`${this.state.menu===6? 'active': ''}`} onClick={() => this.changeMenu(6)}>Board</li>
 					</ul>
 				</div>
 				<div className="contentArea">

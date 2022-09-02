@@ -262,7 +262,7 @@ class Sixth extends React.Component {
                     </div>
                     {this.state.open12 ? (
                         <div className='content'>
-                        
+                            <li>연구개요</li>
                         <img className= 'img' src={img_6_12}/>
                                 {this.props.children}
                         </div>
