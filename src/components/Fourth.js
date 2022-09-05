@@ -8,7 +8,8 @@ class Fourth extends React.Component {
 
         	this.state= {
 				menu:0,
-				open : true,
+				open0 : true,
+				open1 : true,
 				open2 : true,
 				open3 : true,
 				open4 : true,
@@ -18,7 +19,8 @@ class Fourth extends React.Component {
 				open8 : true,
 				open9 : true
         	};
-			this.togglePanel = this.togglePanel.bind(this);
+			this.togglePanel0 = this.togglePanel0.bind(this);
+			this.togglePanel1 = this.togglePanel1.bind(this);
 			this.togglePanel2 = this.togglePanel2.bind(this);
 			this.togglePanel3 = this.togglePanel3.bind(this);
 			this.togglePanel4 = this.togglePanel4.bind(this);
@@ -29,8 +31,12 @@ class Fourth extends React.Component {
 			this.togglePanel9 = this.togglePanel9.bind(this);
         }
 
-		togglePanel(e) {
-			this.setState({open : !this.state.open})
+		togglePanel0(e) {
+			this.setState({open0 : !this.state.open0})
+		}
+
+		togglePanel1(e) {
+			this.setState({open1 : !this.state.open1})
 		}
 
 		togglePanel2(e) {
@@ -68,13 +74,23 @@ class Fourth extends React.Component {
         render(){
                 return(
                		<div className="theparent">
-                                <div onClick={(e)=>this.togglePanel(e)} className='header'>
+								<div onClick={(e)=>this.togglePanel0(e)} className='header'>
+                                        {this.props.title}
+                                        2022
+                                </div>
+                                 {this.state.open0 ? (
+                                        <div className='content'>
+										<li> Eu Wang Kim, Minseo Park, Kyoungmin Kim, Kyoung Ju Kim. Blockchain-Based Automatic Tracking and Extracting Construction Document for Claim and Dispute Support. KSCE Journal of Civil Engineering Volume 26, Issue 9 </li>
+                                                {this.props.children}
+                                        </div>
+                                 ) : null}
+                                <div onClick={(e)=>this.togglePanel1(e)} className='header'>
                                         {this.props.title}
                                         2021
                                 </div>
-                                 {this.state.open ? (
+                                 {this.state.open1 ? (
                                         <div className='content'>
-					<li>Kyoung Ju Kim, Kyoungmin Kim, Eu Wang Kim, Thi Ha Tho Nguyen. Estimating Damages of Bid-Rigging in Design-Build Contracts Based on Simulation Model. KSCE Journal of Civil Engineering Volume 25, Issue 2</li>
+										<li>Kyoung Ju Kim, Kyoungmin Kim, Eu Wang Kim, Thi Ha Tho Nguyen. Estimating Damages of Bid-Rigging in Design-Build Contracts Based on Simulation Model. KSCE Journal of Civil Engineering Volume 25, Issue 2</li>
                                                 {this.props.children}
                                         </div>
                                  ) : null}

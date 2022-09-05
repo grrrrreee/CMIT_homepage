@@ -2,7 +2,9 @@ import React, {Component} from "react";
 import '../style.css';
 import Collapsible from 'react-collapsible';
 
+import img_6_1 from './img/6_1.png'
 import img_6_2 from './img/6_2.jpg'
+import img_6_3 from './img/6_3.png'
 import img_6_4 from './img/6_4.jpg'
 import img_6_6 from './img/6_6.jpg'
 import img_6_7 from './img/6_7.jpg'
@@ -136,15 +138,21 @@ class Sixth extends React.Component {
 
         render(){
             return(
-               	<div className="theparent">
+               	<div className="parent">
                     <div onClick={(e)=>this.togglePanel(e)} className='header'>
                         {this.props.title}
                         블록체인 기술을 이용한 해외 건설프로젝트 스마트 분쟁관리 모델구축 연구 (2019~2023)
                     </div>
                     {this.state.open ? (
-                        <div className='content'>
-                        {/**/}
+                        <div className="thirdParent">
+                            <div className="img">
+                                <img className="img2" src={img_6_1}/>
                                 {this.props.children}
+                            </div>
+                            <div className="researchDetail">
+                                <li>연구수행기간 : 2019.03.01 ~ 2024.02.29</li>
+                                <li>시행부처/기관 : 한국연구재단</li>
+                            </div>
                         </div>
                     ) : null}
                     <div onClick={(e)=>this.togglePanel2(e)} className='header'>
@@ -152,10 +160,15 @@ class Sixth extends React.Component {
                         PSC 교량의 외부텐던(External tendon) 손상평가를 위한 비파괴 검사장비 및 진단기술 개발 연구 기간 (2017~2019)
                     </div>
                     {this.state.open2 ? (
-                        <div className='content'>
-                        
-                        <img className= 'img' src={img_6_2}/>
+                        <div className="thirdParent">
+                            <div className="img">
+                                <img className="img2" src={img_6_2}/>
                                 {this.props.children}
+                            </div>
+                            <div className="researchDetail">
+                                <li>연구수행기간 : 2017.06.19 ~2019.06.18</li>
+                                <li>시행부처/기관 : 중소기업청</li>
+                            </div>
                         </div>
                     ) : null}
                     <div onClick={(e)=>this.togglePanel3(e)} className='header'>
@@ -163,20 +176,29 @@ class Sixth extends React.Component {
                         연약지반 활주로 유지보수 방안 및 기술지원 연구용역 (2016~2018)
                     </div>
                     {this.state.open3 ? (
-                        <div className='content'>
-                        
+                        <div className="thirdParent">
+                            <div className="img">
+                                <img className="img2" src={img_6_3}/>
                                 {this.props.children}
+                            </div>
+                            <div>
+                                1234
+                            </div>
                         </div>
                     ) : null}
-                     <div onClick={(e)=>this.togglePanel4(e)} className='header'>
+                    <div onClick={(e)=>this.togglePanel4(e)} className='header'>
                         {this.props.title}
                         SOC시설물의 환경부하 저감을 위한 LCA(Life Cycle Assessment)기반 의사결정 시스템 개발 (2014~2018)
                     </div>
                     {this.state.open4 ? (
-                        <div className='content'>
-                        
-                        <img className= 'img' src={img_6_4}/>
+                        <div className="thirdParent">
+                            <div className="img">
+                                <img className="img2" src={img_6_4}/>
                                 {this.props.children}
+                            </div>
+                            <div>
+                                1234
+                            </div>
                         </div>
                     ) : null}
                     <div onClick={(e)=>this.togglePanel5(e)} className='header'>
@@ -184,7 +206,7 @@ class Sixth extends React.Component {
                         환경부하 저감형 LCA(Life Cycle Assessment) 기반 설계 및 시공기술 개발 기획(2013~2014)
                     </div>
                     {this.state.open5 ? (
-                        <div className='content'>
+                        <div className='thirdParent'>
                         
                                 {this.props.children}
                         </div>
@@ -194,10 +216,14 @@ class Sixth extends React.Component {
                         NFC기반 건축물 유지관리 시스템
                     </div>
                     {this.state.open6 ? (
-                        <div className='content'>
-                        
-                        <img className= 'img' src={img_6_6}/>
-                                {this.props.children}
+                        <div className="thirdParent">
+                        <div className="img">
+                            <img className="img2" src={img_6_6}/>
+                            {this.props.children}
+                        </div>
+                        <div>
+                            1234
+                        </div>
                         </div>
                     ) : null}
                     <div onClick={(e)=>this.togglePanel7(e)} className='header'>
@@ -205,10 +231,14 @@ class Sixth extends React.Component {
                         시나리오 기반 건설사업 계획 및 관리 게임도구의 개발(2013 ~ 2016)
                     </div>
                     {this.state.open7 ? (
-                        <div className='content'>
-                        
-                        <img className= 'img' src={img_6_7}/>
-                                {this.props.children}
+                        <div className="thirdParent">
+                        <div className="img">
+                            <img className="img2" src={img_6_7}/>
+                            {this.props.children}
+                        </div>
+                        <div>
+                            1234
+                        </div>
                         </div>
                     ) : null}
                     <div onClick={(e)=>this.togglePanel8(e)} className='header'>
@@ -216,10 +246,14 @@ class Sixth extends React.Component {
                         건설기술용역 능력평가 기준 마련 연구(2013 ~ 2013)
                     </div>
                     {this.state.open8 ? (
-                        <div className='content'>
-                        
-                        <img className= 'img' src={img_6_8}/>
-                                {this.props.children}
+                        <div className="thirdParent">
+                        <div className="img">
+                            <img className="img2" src={img_6_8}/>
+                            {this.props.children}
+                        </div>
+                        <div>
+                            1234
+                        </div>
                         </div>
                     ) : null}
                     <div onClick={(e)=>this.togglePanel9(e)} className='header'>
@@ -227,10 +261,14 @@ class Sixth extends React.Component {
                         국내외 건설R&D 성과 표준화 관련 사례조사(2011 ~ 2012)
                     </div>
                     {this.state.open9 ? (
-                        <div className='content'>
-                        
-                        <img className= 'img' src={img_6_9}/>
-                                {this.props.children}
+                        <div className="thirdParent">
+                        <div className="img">
+                            <img className="img2" src={img_6_9}/>
+                            {this.props.children}
+                        </div>
+                        <div>
+                            1234
+                        </div>
                         </div>
                     ) : null}
                     <div onClick={(e)=>this.togglePanel10(e)} className='header'>
@@ -261,10 +299,14 @@ class Sixth extends React.Component {
                                 도로구조물(PSC교량/하부구조) 공사비 산정모델 및 기준 개발(2006 ~ 2011)
                     </div>
                     {this.state.open12 ? (
-                        <div className='content'>
-                            <li>연구개요</li>
-                        <img className= 'img' src={img_6_12}/>
-                                {this.props.children}
+                        <div className="thirdParent">
+                        <div className="img">
+                            <img className="img2" src={img_6_12}/>
+                            {this.props.children}
+                        </div>
+                        <div>
+                            1234
+                        </div>
                         </div>
                     ) : null}
                     <div onClick={(e)=>this.togglePanel13(e)} className='header'>
@@ -272,10 +314,14 @@ class Sixth extends React.Component {
                                 도로사업 타당성 조사 및 리스크 평가체계 구축연구(2006 ~ 2007)
                     </div>
                     {this.state.open13 ? (
-                        <div className='content'>
-                        
-                        <img className= 'img' src={img_6_13}/>
-                                {this.props.children}
+                        <div className="thirdParent">
+                        <div className="img">
+                            <img className="img2" src={img_6_13}/>
+                            {this.props.children}
+                        </div>
+                        <div>
+                            1234
+                        </div>
                         </div>
                     ) : null}
                     <div onClick={(e)=>this.togglePanel14(e)} className='header'>
@@ -283,10 +329,14 @@ class Sixth extends React.Component {
                                 건설생산 프로세스 혁신기술 개발(2005 ~ 2010)
                     </div>
                     {this.state.open14 ? (
-                        <div className='content'>
-                        
-                        <img className= 'img' src={img_6_14}/>
-                                {this.props.children}
+                        <div className="thirdParent">
+                        <div className="img">
+                            <img className="img2" src={img_6_14}/>
+                            {this.props.children}
+                        </div>
+                        <div>
+                            1234
+                        </div>
                         </div>
                     ) : null}
                     <div onClick={(e)=>this.togglePanel15(e)} className='header'>
@@ -294,10 +344,14 @@ class Sixth extends React.Component {
                                 공공시설물 유지관리비용 산정 시스템 모델 개발(2005 ~ 2006)
                     </div>
                     {this.state.open15 ? (
-                        <div className='content'>
-                        
-                        <img className= 'img' src={img_6_15}/>
-                                {this.props.children}
+                        <div className="thirdParent">
+                        <div className="img">
+                            <img className="img2" src={img_6_15}/>
+                            {this.props.children}
+                        </div>
+                        <div>
+                            1234
+                        </div>
                         </div>
                     ) : null}
                     <div onClick={(e)=>this.togglePanel16(e)} className='header'>
@@ -305,10 +359,14 @@ class Sixth extends React.Component {
                                 산업설비 통합수행체제 핵심기술개발(2003 ~ 2006)
                     </div>
                     {this.state.open16 ? (
-                        <div className='content'>
-                        
-                        <img className= 'img' src={img_6_16}/>
-                                {this.props.children}
+                        <div className="thirdParent">
+                        <div className="img">
+                            <img className="img2" src={img_6_16}/>
+                            {this.props.children}
+                        </div>
+                        <div>
+                            1234
+                        </div>
                         </div>
                     ) : null}
                     <div onClick={(e)=>this.togglePanel17(e)} className='header'>
@@ -316,15 +374,19 @@ class Sixth extends React.Component {
                                 제작, 시공 및 유지관리와 연계된 설계자동화 시스템 개발(2002 ~ 2005)
                     </div>
                     {this.state.open17 ? (
-                        <div className='content'>
-                        
-                        <img className= 'img' src={img_6_17}/>
-                                {this.props.children}
+                        <div className="thirdParent">
+                        <div className="img">
+                            <img className="img2" src={img_6_17}/>
+                            {this.props.children}
+                        </div>
+                        <div>
+                            1234
+                        </div>
                         </div>
                     ) : null}
 			</div>	
 		)
-        }
+    }
 }
 
 export default Sixth;
