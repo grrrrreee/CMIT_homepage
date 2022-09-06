@@ -169,7 +169,18 @@ ul.tabs {
 	width : 100%;
 }
 
+div.researchDetail {
+	width : 70%;
+}
+
 div.researchDetail > li {
+	padding-top : 10px;
 	padding-bottom : 20px;
 	font-size : 15px;
+}
+
+div.researchDetail > div.researchDetail2 {
+	width : 90%;
+	padding-bottom : 15px;
+	padding-left : 2%;
 }

@@ -50,9 +50,9 @@ class Second extends React.Component {
                     </div>
 					{this.state.open0? (
 						<div className='content'>
-							<li>한양대학교 </li>
-							<li>한양대학교 </li>
-							<li>텍사스 대학교, 오스틴 캠퍼스(UT Austin) </li>
+							<li>공학사 : 한양대학교 공과대학 토목공학과 </li>
+							<li>공학석사 : 한양대학교 대학원 구조 전공 </li>
+							<li>공학박사 : The University of Texas at Austin, (Construction Engineering and Project Management 전공) </li>
 							{this.props.children}
 						</div>
 					) : null}

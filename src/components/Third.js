@@ -33,97 +33,50 @@ class Third extends React.Component {
                     {this.state.open ? (
                         <div className='content'>
                                 {this.props.children}
+								<div id="p_mother">
+                               		 <div className="p_box">
+						<div className="p_box_profile">
+						</div>
+						<div className="p_box_info">
+							name
+						</div>
+					</div>
+					<div className="p_box">
+						<div className="p_box_profile">
+						</div>
+						<div className="p_box_info">
+							name
+						</div>
+					</div>
+				</div>
                         </div>
                     ) : null}
 				<div onClick={(e)=>this.togglePanel2(e)} className='header'>
                         {this.props.title}
                         Alumni
-                    </div>
+            </div>
                     {this.state.open2 ? (
                         <div className='content'>
                                 {this.props.children}
+								<div id="p_mother">
+                               		 <div className="p_box">
+						<div className="p_box_profile">
+						</div>
+						<div className="p_box_info">
+							name
+						</div>
+					</div>
+					<div className="p_box">
+						<div className="p_box_profile">
+						</div>
+						<div className="p_box_info">
+							name
+						</div>
+					</div>
+				</div>
                         </div>
                     ) : null}
-				{/*<div id="p_mother">
-                               		 <div className="p_box">
-						<div className="p_box_profile">
-						</div>
-						<div className="p_box_info">
-							name
-						</div>
-					</div>
-					<div className="p_box">
-						<div className="p_box_profile">
-						</div>
-						<div className="p_box_info">
-							name
-						</div>
-					</div>
-				</div>
-				<div id="p_mother">
-                               		 <div className="p_box">
-						<div className="p_box_profile">
-						</div>
-						<div className="p_box_info">
-							name
-						</div>
-					</div>
-                                	<div className="p_box">
-						<div className="p_box_profile">
-						</div>
-						<div className="p_box_info">
-							name
-						</div>
-					</div>
-				</div>
-				<div id="p_mother">
-                               		 <div className="p_box">
-						<div className="p_box_profile">
-						</div>
-						<div className="p_box_info">
-							name
-						</div>
-					</div>
-                                	<div className="p_box">
-						<div className="p_box_profile">
-						</div>
-						<div className="p_box_info">
-							name
-						</div>
-					</div>
-				</div>
-				<div id="p_mother">
-					<div className="p_box">
-						<div className="p_box_profile">
-						</div>
-						<div className="p_box_info">
-							name
-						</div>
-					</div>
-                                	<div className="p_box">
-						<div className="p_box_profile">
-						</div>
-						<div className="p_box_info">
-							name
-						</div>
-					</div>
-				</div>
-				<div id="p_mother">
-                               		 <div className="p_box">
-						<div className="p_box_profile">
-						</div>
-						<div className="p_box_info">
-							name
-						</div>
-					</div>
-                                	<div className="p_box">
-						<div className="p_box_profile">
-						</div>
-						<div className="p_box_info">
-							name
-						</div>
-					</div>
-				</div>*/}
+				
 				</div>
                 )
         }
