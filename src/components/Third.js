@@ -4,6 +4,8 @@ import '../style.css';
 import KEW from './Members/KEW.jpg'
 import WAM from './Members/WAM.jpg'
 import KJI from './Members/KJI.jpg'
+import PMS from './Members/PMS.png'
+import PMS_2 from './Members/PMS_2.jpg'
 
 class Third extends React.Component {
         constructor(props) {
@@ -42,12 +44,16 @@ class Third extends React.Component {
 									<img className="img3" src={KEW}></img>
 									<div className="p_box_info">
 										<li>이름 : 김의왕</li>
+										<li>박사 수료</li>
+										<li>관심주제 : 건설 클레임 및 분쟁, 블록체인</li>
 									</div>
 								</div>
 								<div className="p_box">
-									<img className="img3" src={WAM}></img>
+									<img className="img3" src={PMS_2}></img>
 									<div className="p_box_info">
-										name
+									<li>이름 : 박민서</li>
+									<li>석사(2021-1학기 입학)</li>
+									<li>관심주제 : 인프라 금융, Project Financing, 자산 토큰화, 블록체인</li>
 									</div>
 								</div>
 							</div>
@@ -56,26 +62,16 @@ class Third extends React.Component {
 									<img className="img3" src={KJI}></img>
 									<div className="p_box_info">
 									<li>이름 : 김종인</li>
+									<li>석사(2021-1학기 입학)</li>
+									<li>관심주제 : </li>
 									</div>
 								</div>
 								<div className="p_box">
 									<img className="img3" src={WAM}></img>
 									<div className="p_box_info">
 									<li>이름 : 위아맹</li>
-									</div>
-								</div>
-							</div>
-							<div id="p_mother">
-								<div className="p_box">
-									<img className="img3" src={KEW}></img>
-									<div className="p_box_info">
-										name
-									</div>
-								</div>
-								<div className="p_box">
-									<img className="img3" src={WAM}></img>
-									<div className="p_box_info">
-										name
+									<li>석사(2021-2학기 입학)</li>
+									<li>관심주제 : 공사지연분석, 건설 클레임 및 분쟁</li>
 									</div>
 								</div>
 							</div>
@@ -88,21 +84,7 @@ class Third extends React.Component {
                     {this.state.open2 ? (
                         <div className='content'>
                             {this.props.children}
-							<div id="p_mother">
-                               	<div className="p_box">
-									<img className="img3" src={KEW}></img>
-									<div className="p_box_info">
-										name
-									</div>
-								</div>
-								<div className="p_box">
-										<div className="p_box_profile">
-										</div>
-										<div className="p_box_info">
-											name
-									</div>
-								</div>
-							</div>
+							
                         </div>
                     ) : null}
 				
