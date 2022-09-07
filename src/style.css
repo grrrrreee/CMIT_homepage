@@ -110,32 +110,37 @@ ul.tabs {
 
 #p_mother {
 	display : flex;
-	justify-content : space-evenly
+	justify-content : space-evenly;
 }
 
 .p_box {
 	height : 250px;
 	width : 550px;
-	background-color : red;
 	margin-right : 1rem;
 	margin-bottom : 1rem;
+	padding-bottom : 1.5%;
+	border-style : solid;
+	border-width : 2.5px;
 	display : flex;
+	font-family: verdana;
 }
 
 .p_box * {
 	margin-top : 1rem;
+	font-family: verdana;
 }
 
-.p_box .p_box_profile {
-	height : 200px;
-	background-color : blue;
+.p_box_profile {
+	height : 150px;
+	width : 150px;
+	background-color : rgb(155, 155, 180);
 	margin-left : 1rem;
 	flex : 1;
 }
 
-.p_box .p_box_info {
+.p_box_info {
 	margin-left : 1rem;
-	width : 40%;
+	width : 70%;
 	flex : 1;
 }
 
@@ -167,6 +172,11 @@ ul.tabs {
 
 .img2 {
 	width : 100%;
+}
+
+.img3 {
+	padding-left : 5%;
+	padding-right : 5%;
 }
 
 div.researchDetail {

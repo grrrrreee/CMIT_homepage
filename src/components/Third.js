@@ -1,6 +1,10 @@
 import React, {Component} from "react";
 import '../style.css';
 
+import KEW from './Members/KEW.jpg'
+import WAM from './Members/WAM.jpg'
+import KJI from './Members/KJI.jpg'
+
 class Third extends React.Component {
         constructor(props) {
                 super();
@@ -32,23 +36,49 @@ class Third extends React.Component {
                     </div>
                     {this.state.open ? (
                         <div className='content'>
-                                {this.props.children}
-								<div id="p_mother">
-                               		 <div className="p_box">
-						<div className="p_box_profile">
-						</div>
-						<div className="p_box_info">
-							name
-						</div>
-					</div>
-					<div className="p_box">
-						<div className="p_box_profile">
-						</div>
-						<div className="p_box_info">
-							name
-						</div>
-					</div>
-				</div>
+							{this.props.children}
+							<div id="p_mother">
+								<div className="p_box">
+									<img className="img3" src={KEW}></img>
+									<div className="p_box_info">
+										<li>이름 : 김의왕</li>
+									</div>
+								</div>
+								<div className="p_box">
+									<img className="img3" src={WAM}></img>
+									<div className="p_box_info">
+										name
+									</div>
+								</div>
+							</div>
+							<div id="p_mother">
+								<div className="p_box">
+									<img className="img3" src={KJI}></img>
+									<div className="p_box_info">
+									<li>이름 : 김종인</li>
+									</div>
+								</div>
+								<div className="p_box">
+									<img className="img3" src={WAM}></img>
+									<div className="p_box_info">
+									<li>이름 : 위아맹</li>
+									</div>
+								</div>
+							</div>
+							<div id="p_mother">
+								<div className="p_box">
+									<img className="img3" src={KEW}></img>
+									<div className="p_box_info">
+										name
+									</div>
+								</div>
+								<div className="p_box">
+									<img className="img3" src={WAM}></img>
+									<div className="p_box_info">
+										name
+									</div>
+								</div>
+							</div>
                         </div>
                     ) : null}
 				<div onClick={(e)=>this.togglePanel2(e)} className='header'>
@@ -57,23 +87,22 @@ class Third extends React.Component {
             </div>
                     {this.state.open2 ? (
                         <div className='content'>
-                                {this.props.children}
-								<div id="p_mother">
-                               		 <div className="p_box">
-						<div className="p_box_profile">
-						</div>
-						<div className="p_box_info">
-							name
-						</div>
-					</div>
-					<div className="p_box">
-						<div className="p_box_profile">
-						</div>
-						<div className="p_box_info">
-							name
-						</div>
-					</div>
-				</div>
+                            {this.props.children}
+							<div id="p_mother">
+                               	<div className="p_box">
+									<img className="img3" src={KEW}></img>
+									<div className="p_box_info">
+										name
+									</div>
+								</div>
+								<div className="p_box">
+										<div className="p_box_profile">
+										</div>
+										<div className="p_box_info">
+											name
+									</div>
+								</div>
+							</div>
                         </div>
                     ) : null}
 				
