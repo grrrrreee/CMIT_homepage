@@ -55,12 +55,23 @@ ul.tabs {
 	font-size: 14px;
 }
 
+.p_ppic {
+	width : 27.5%;
+}
+
 .ppic {
 	display : inline-block;
 	margin-top : 1rem;
 	margin-bottom : 1rem;
-	height: 550px;
-	width : 550px;
+	width : 92.5%;
+	flex : 1
+}
+
+.ppic2 {
+	display : inline-block;
+	margin-top : 1rem;
+	margin-bottom : 1rem;
+	width : 10%;
 	flex : 1
 }
 
@@ -162,7 +173,11 @@ ul.tabs {
   padding: 15px;
   color : black;
   font-family: verdana;
-  font-size: 14px;
+  font-size: 13.5px;
+}
+
+.content > li {
+	padding-bottom : 3px;
 }
 
 .img {

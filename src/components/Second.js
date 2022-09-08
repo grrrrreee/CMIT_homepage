@@ -39,7 +39,7 @@ class Second extends React.Component {
         render(){
                 return(
 			<div className="secondParent">
-				<div>
+				<div className="p_ppic">
 					<img className="ppic" src={ppic}/>
 					<h3>Prof. Kim, Kyoung-Ju</h3>
 				</div>
