@@ -53,19 +53,19 @@ class Third extends React.Component {
 									<div className="p_box_info">
 									<li>이름 : 박민서</li>
 									<li>석사(2021-1학기 입학)</li>
-									<li>관심주제 : 인프라 금융, Project Financing, 자산 토큰화, 블록체인</li>
+									<li>관심주제 : Project Financing, 인프라 금융, 자산 토큰화, 블록체인</li>
 									</div>
 								</div>
-							</div>
-							<div id="p_mother">
 								<div className="p_box">
 									<img className="img3" src={KJI}></img>
 									<div className="p_box_info">
 									<li>이름 : 김종인</li>
 									<li>석사(2021-1학기 입학)</li>
-									<li>관심주제 : </li>
+									<li>관심주제 : 건설 입찰, 건설 클레임 및 분쟁, 텍스트 마이닝</li>
 									</div>
 								</div>
+							</div>
+							<div id="p_mother">
 								<div className="p_box">
 									<img className="img3" src={WAM}></img>
 									<div className="p_box_info">

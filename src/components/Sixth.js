@@ -201,7 +201,7 @@ class Sixth extends React.Component {
                     ) : null}
                     <div onClick={(e)=>this.togglePanel4(e)} className='header'>
                         {this.props.title}
-                        SOC시설물의 환경부하 저감을 위한 LCA(Life Cycle Assessment)기반 의사결정 시스템 개발 (2014~2018)
+                        SOC시설물의 환경부하 저감을 위한 LCA(Life Cycle Assessment)기반 의사결정 시스템 개발 (2014~2018) , 환경부하 저감형 LCA(Life Cycle Assessment) 기반 설계 및 시공기술 개발 기획(2013~2014)
                     </div>
                     {this.state.open4 ? (
                         <div className="thirdParent">
@@ -209,18 +209,8 @@ class Sixth extends React.Component {
                                 <img className="img2" src={img_6_4}/>
                                 {this.props.children}
                             </div>
-                            <div>
-                                1234
-                            </div>
-                        </div>
-                    ) : null}
-                    <div onClick={(e)=>this.togglePanel5(e)} className='header'>
-                        {this.props.title}
-                        환경부하 저감형 LCA(Life Cycle Assessment) 기반 설계 및 시공기술 개발 기획(2013~2014)
-                    </div>
-                    {this.state.open5 ? (
-                        <div className="researchDetail">
-                        <li>연구수행기간 : 2013.12.26 ~ 2014.04.25</li>
+                            <div className="researchDetail">
+                        <li>연구수행기간 : 2014.10.24 ~ 2018.10.23, 2013.12.26 ~ 2014.04.25</li>
                         <li>시행부처/기관 : 한국연구재단</li>
                         <li>연구개요</li>
                         <div className="researchDetail2">2012년 18대 국회에서 「온실가스 배출권의 할당 및 거래에 관한 법률안」의 통과로 2014년까지 탄소배출권 거래제의 시범 사업 실시 후, 2015년부터 본격 시행될 계획임. 국내 온실가스 배출량 중 건설교통분야는 42.3%로 높은 비중을 차지하고 있으며, 2020년 국내 온실가스 배출전망치 대비 30% 감축목표를 설정하고 있음. 이처럼 지속가능한 개발을 전제로 한 국제적 환경규제 및 국가별 환경정책의 변화에 대응하기 위해 주요 선진국에서는 환경정책 수립시 의사결정 지원을 위한 다양한 환경평가기법이 활용되고 있으며, 오염배출의 최소화, 공정의 환경친화성 향상 등의 목적을 종합적으로 지원하도록 노력하고 있음.</div>
@@ -228,8 +218,9 @@ class Sixth extends React.Component {
                         <div className="researchDetail2">따라서 본 연구에서는 LCA를 기반으로 한 SOC 시설물의 라이프사이클 전단계의 환경부하 평가기술 개발, 환경성능지표 개발 및 LCI DB 연계방안, 친환경 설계 및 시공 인증시스템 개발에 대한 연구를 기획하고자 함.</div>
                         <li>연구추진체계</li>
                         <div className="researchDetail2">주관연구기관 - 중앙대학교</div>
-                        <div className="researchDetail2">위탁연구기관 - 도명이엔씨</div>
+                        <div className="researchDetail2">위탁연구기관 - 경북대학교, 인하대학교, 해양대학교, 도명이엔씨, 평화엔지니어링</div>
                     </div>
+                        </div>
                     ) : null}
                     <div onClick={(e)=>this.togglePanel6(e)} className='header'>
                         {this.props.title}

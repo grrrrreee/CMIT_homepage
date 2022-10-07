@@ -121,12 +121,12 @@ ul.tabs {
 
 #p_mother {
 	display : flex;
-	justify-content : space-evenly;
+	justify-content : start;
 }
 
 .p_box {
-	height : 250px;
-	width : 600px;
+	height : 150px;
+	width : 575px;
 	margin-right : 1rem;
 	margin-bottom : 1rem;
 	padding-bottom : 1.5%;
@@ -190,6 +190,7 @@ ul.tabs {
 }
 
 .img3 {
+	height  : 100%;
 	padding-left : 5%;
 	padding-right : 5%;
 }
