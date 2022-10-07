@@ -324,11 +324,21 @@ class Sixth extends React.Component {
                     </div>
                     {this.state.open10 ? (
                         <div className='content'>
-                        
                         <img className= 'img' src={img_6_10_1}/>
                         <img className= 'img' src={img_6_10_2}/>
                             {this.props.children}
+                            <div className="researchDetail">
+                                <li>연구수행기간 : 2011.05.01 ~ 2013.03.31</li>
+                                <li>시행부처/기관 : 환경부</li>
+                                <li>연구개요</li>
+                                <div className="researchDetail2">최근 선진국을 중심으로, 시설물의 유지관리 방법이 기존에 시설물의 상태를 조사하여 단순 보수/보강을 통해 관리하는 사후 대응형 관리에서 자산의 정량적 평가를 통해 시설물의 상태 및 성능수준을 파악하여 이를 기초데이터로 체계적이고 효율적인 유지관리를 행하는 사전 예방형 관리개념인 자산관리로 전환되고 있다. 그리고 자산관리를 시행중인 이미 상당수의 나라들은 이를 통해 유지관리 비용 및 예산 절감의 효과들을 보고 있다. 이러한 자산관리를 국내에 도입하려는 노력은 최근 다양한 시설물을 대상으로 많은 연구를 통해 이루어지고 있다.</div>
+                                <div className="researchDetail2">본 연구의 하수관거 시설물의 체계적인 자산관리 도입을 위한 최종 목표는 다음 세가지와 같다. 첫째, 하수관거시설 서비스수준 분석 시스템의 개발, 둘째, 통합자산관리시스템 개발의 전략수립 및 성과평가체계 확립, 셋째, 하수관거 정책 입안 및 실행을 위한 연구결과 제안이다. 최종적으로 하수관거시설의 자산관리시스템을 구축하여 Test bed에서의 시범운영을 통한 자산관리체계 확립을 목표로 하고 있다.</div>
+                                <li>연구추진체계</li>
+                                <div className="researchDetail2">주관연구기관 - 중앙대학교</div>
+                                <div className="researchDetail2">위탁연구기관 - 한국건설기술연구원, 코오롱워터앤에너지 등</div>
                         </div>
+                        </div>
+                        
                     ) : null}
                     <div onClick={(e)=>this.togglePanel11(e)} className='header'>
                             {this.props.title}
