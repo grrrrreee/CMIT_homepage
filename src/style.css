@@ -180,6 +180,10 @@ ul.tabs {
 	padding-bottom : 3px;
 }
 
+.theparent li {
+	line-height: 175%;
+}
+
 .img {
 	width : 30%;
 	padding-right : 5%;
