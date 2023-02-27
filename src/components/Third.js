@@ -6,6 +6,7 @@ import WAM from './Members/WAM.jpg'
 import KJI from './Members/KJI.jpg'
 import PMS from './Members/PMS.png'
 import PMS_2 from './Members/PMS_2.jpg'
+import USER from './Members/user.png'
 
 class Third extends React.Component {
         constructor(props) {
@@ -80,11 +81,21 @@ class Third extends React.Component {
 				<div onClick={(e)=>this.togglePanel2(e)} className='header'>
                         {this.props.title}
                         Alumni
-            </div>
+            	</div>
                     {this.state.open2 ? (
                         <div className='content'>
                             {this.props.children}
-							
+							<div id="p_mother">
+								<div className="p_box">
+									<img className="img3" src={USER}></img>
+									<div className="p_box_info">
+									<li>이름 : ooo</li>
+									<li>졸업 연도 : oooo년도 졸업 </li>
+									<li>학위 논문 : 학위논문 제목</li>
+									<li>현소속 : oo건설 oo팀장</li>
+									</div>
+								</div>
+							</div>
                         </div>
                     ) : null}
 				
