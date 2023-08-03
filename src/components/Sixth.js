@@ -19,6 +19,39 @@ import img_6_15 from './img/6_15.gif'
 import img_6_16 from './img/6_16.gif'
 import img_6_17 from './img/6_17.gif'
 
+/*
+각 위치에 추가하기
+1. 'open18 : true' 추가
+2. this.togglePanel18 = this.togglePanel18.bind(this);
+3. togglePanel18(e){
+            this.setState({open : !this.state.open18})
+    }
+4.  <div onClick={(e)=>this.togglePanel18(e)} className='header'>
+    {this.props.title}
+                제작, 시공 및 유지관리와 연계된 설계자동화 시스템 개발(2002 ~ 2005)
+    </div>
+    {this.state.open18 ? (
+        <div className="thirdParent">
+        <div className="img">
+            <img className="img2" src={img_6_17}/>
+            {this.props.children}
+        </div>
+        <div className="researchDetail">
+                <li>연구수행기간 : 2002.12.06 ~ 2005.12.05</li>
+                <li>시행부처/기관 : </li>
+                <li>연구개요</li>
+                <div className="researchDetail2">제작·시공 및 유지관리 단계에의 정보연계 및 활용이 가능한 강교랑 설게자동화 시스템을 개발하여 강교랑 생애주기상에서 발생되는 다앙한 엔지니어링 정보에 관리 정보까지 통합하여 활용할 수 있도록 하는데 목표를 두어 관련 연구개발 수행</div>
+                <div className="researchDetail2"> 국내·외 강교랑 설계 자동화 관련 연구 및 기술현황분석: 현재 국내외에서는 설계자동화를 위한 정보시스템에 대한 관심이 증대되고 있으며, 국외에서는 시공단계를 고려한 4D 기반의 시뮬레이션과 같은 기술을 개발하여 활용중임. 또한, 국내서는 강교량의 설계자동회 프로그램에 대한 개념의 정립 및 초기활용 단계에 있으며, 제작 · 시공 및 유자관리 단계의 정보공유를 위한 통합기능을 제공할 수 있는 시스템의 개발이 요구되고 있음 </div>
+                <div className="researchDetail2">수치가조립의 현장적용 연구: 수치가조립을 위한 계측기기의 H/W 및 S/W 기술현황을 파악하여 현장 계측에 적용하였으며, 수치가조립 정밀도 영향요인을 조사/분석하여 정밀도를 검증하였음. 또한, 계측좌표를 변환하여 설계좌표와 비교하였으며, 좌표변환알고리즘을 제안하였으며 현장적용을 위한 수치가조립 시스템 구축방안을 제시하였음</div>
+                <div className="researchDetail2">무선통신 응용 기술 개발: 인터넷 기술 등 무선통신 기술을 이용한 실시간 정보공유의 편의성을 검토하였으며, 건설업에 적합한 기술현황을 분석하고 적용 방안을 선정하였음. 또한 현행 작업 현장 정보 관리체계를 분석하고 무선통신을 응용한 강교량 현장정보의 실시간 교환 및 공유가 가능한 통합관리시스템 개발 방안을 제시하였음</div>
+                <li>연구추진체계</li>
+                <div className="researchDetail2">주관연구기관 - 한길아이티</div>
+                <div className="researchDetail2">위탁연구기관 - 중앙대학교, 한국건설기술연구원</div>
+            </div>
+        </div>
+    ) : null}
+*/
+
 class Sixth extends React.Component {
         constructor(props) {
             super();
@@ -43,6 +76,7 @@ class Sixth extends React.Component {
                 open16 : true,
                 open17 : true,
                 open18 : true
+                // 1번
             };
             this.togglePanel = this.togglePanel.bind(this);
             this.togglePanel2 = this.togglePanel2.bind(this);
@@ -62,6 +96,7 @@ class Sixth extends React.Component {
             this.togglePanel16 = this.togglePanel16.bind(this);
             this.togglePanel17 = this.togglePanel17.bind(this);
             this.togglePanel18 = this.togglePanel18.bind(this);
+            // 2번
         }
 	
         togglePanel(e) {
@@ -136,9 +171,12 @@ class Sixth extends React.Component {
             this.setState({open18 : !this.state.open18})
         }
 
+        //3번
+
         render(){
             return(
                	<div className="parent">
+                    {/*4번*/}
                     <div onClick={(e)=>this.togglePanel(e)} className='header'>
                         {this.props.title}
                         블록체인 기술을 이용한 해외 건설프로젝트 스마트 분쟁관리 모델구축 연구 (2019~2023)

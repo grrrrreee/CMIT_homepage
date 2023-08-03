@@ -52,7 +52,6 @@ class App extends React.Component {
 						<li className={`${this.state.menu===3? 'active': ''}`} onClick={() => this.changeMenu(3)}>Publication</li>
 						<li className={`${this.state.menu===4? 'active': ''}`} onClick={() => this.changeMenu(4)}>Teaching</li>
 						<li className={`${this.state.menu===5? 'active': ''}`} onClick={() => this.changeMenu(5)}>Project</li>
-						<li className={`${this.state.menu===6? 'active': ''}`} onClick={() => this.changeMenu(6)}>Board</li>
 					</ul>
 				</div>
 				<div className="contentArea">

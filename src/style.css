@@ -153,7 +153,45 @@ ul.tabs {
 	margin-left : 1rem;
 	width : 70%;
 	flex : 1;
-	font-size: 18px;
+	font-size: 14px;
+}
+
+.p_box2 {
+	height : 150px;
+	width : 32%;
+	margin-right : 1rem;
+	margin-bottom : 1rem;
+	padding-bottom : 1.5%;
+	border-style : solid;
+	border-width : 2.5px;
+	display : flex;
+	font-family: verdana;
+}
+
+.p_box2 * {
+	margin-top : 0.65rem;
+	font-family: verdana;
+}
+
+
+.p_box_info2 {
+	margin-left : 1rem;
+	width : 70%;
+	flex : 1;
+	font-size: 12px;
+}
+
+.p_box_info2 > li {
+	line-height: 12.5px;
+}
+
+.links {
+	margin-top : -10px;
+}
+
+.links > li {
+	padding : 5px;
+	display : inline-block;
 }
 
 .header{
