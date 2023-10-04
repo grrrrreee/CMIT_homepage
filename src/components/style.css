@@ -1,0 +1,255 @@
+.menuBar {
+	width: 100%;
+	display : inline-block;
+	height : 80px;
+	border-bottom : solid 3px gray;
+	margin-bottom : 0.1rem;
+}
+
+ul.app-header {
+	float : left;
+}
+
+ul.tabs {
+	float : right;
+	margin-right : 1.25rem;
+}
+
+.tabs li {
+	font-size : 1.25rem;
+	font-weight : bold;
+	display : inline-block;
+	color : #000000;
+	padding : 0.75rem;
+	height : 20px;
+}
+
+.tabs li.active {
+	background-color : #1c141426;
+	height : 100%;
+}
+
+.contentArea {
+	height : 750px, 100%;
+}
+
+.theparent {
+	min-height : 950px;
+}
+
+.secondParent {
+	display: flex;
+	min-height : 950px;
+}
+
+.thirdParent {
+	display : inline-flex;
+	width : 100%;
+	border-left: solid 1px #f2f2f2;
+	border-right: solid 1px #f2f2f2;
+	border-bottom: solid 1px #f2f2f2;
+	border-radius: 0 0 5px 5px;
+	padding: 15px;
+	color : black;
+	font-family: verdana;
+	font-size: 14px;
+}
+
+.p_ppic {
+	width : 27.5%;
+}
+
+.ppic {
+	display : inline-block;
+	margin-top : 1rem;
+	margin-bottom : 1rem;
+	width : 92.5%;
+	flex : 1
+}
+
+.ppic2 {
+	display : inline-block;
+	margin-top : 1rem;
+	margin-bottom : 1rem;
+	width : 10%;
+	flex : 1
+}
+
+.pic {
+	min-height : 950px;
+	background-color : #4e545c;
+	position : relative;
+	padding-top : 100px;
+	padding-left : 100px;
+	z-index : 1;
+}
+
+.pic::after {
+	width : 100%;
+	height : 100%;
+	content: "";
+	position : absolute;
+	top : 0;
+	left : 0;
+	background : url("./components/1.jpg");
+	z-index : -1;
+	opacity : 0.2;
+}
+
+.pic h1, h2 {
+	color : white;
+}
+
+.CMIT {
+	color : #8dd9ff;
+	font-weight: bold;
+}
+
+.lab_ex {
+	padding-top : 150px;
+	font-size : 22.5px;
+	width : 100%;
+	color : white;
+}
+
+.p_career {
+	margin-top : 1rem;
+	margin-left : 2rem;
+	margin-bottom : 1rem;
+	flex : 1
+}
+
+#p_mother {
+	display : flex;
+	justify-content : start;
+}
+
+.p_box {
+	height : 150px;
+	width : 32%;
+	margin-right : 1rem;
+	margin-bottom : 1rem;
+	padding-bottom : 1.5%;
+	border-style : solid;
+	border-width : 2.5px;
+	display : flex;
+	font-family: verdana;
+}
+
+.p_box * {
+	margin-top : 1rem;
+	font-family: verdana;
+}
+
+.p_box_profile {
+	height : 150px;
+	width : 150px;
+	background-color : rgb(155, 155, 180);
+	margin-left : 1rem;
+	flex : 1;
+}
+
+.p_box_info {
+	margin-left : 1rem;
+	width : 70%;
+	flex : 1;
+	font-size: 14px;
+}
+
+.p_box2 {
+	height : 150px;
+	width : 32%;
+	margin-right : 1rem;
+	margin-bottom : 1rem;
+	padding-bottom : 1.5%;
+	border-style : solid;
+	border-width : 2.5px;
+	display : flex;
+	font-family: verdana;
+}
+
+.p_box2 * {
+	margin-top : 0.65rem;
+	font-family: verdana;
+}
+
+
+.p_box_info2 {
+	margin-left : 1rem;
+	width : 70%;
+	flex : 1;
+	font-size: 12px;
+}
+
+.p_box_info2 > li {
+	line-height: 12.5px;
+}
+
+.links {
+	margin-top : -10px;
+}
+
+.links > li {
+	padding : 5px;
+	display : inline-block;
+}
+
+.header{
+  cursor: pointer;
+  border: solid 1px #f2f2f2;
+  padding: 11.25px;
+  background-color: #0089CC;
+  color: #FFF;
+  font-family: verdana;
+}
+
+.content{
+  cursor: pointer;
+  border-left: solid 1px #f2f2f2;
+  border-right: solid 1px #f2f2f2;
+  border-bottom: solid 1px #f2f2f2;
+  border-radius: 0 0 5px 5px;
+  padding: 15px;
+  color : black;
+  font-family: verdana;
+  font-size: 13.5px;
+}
+
+.content > li {
+	padding-bottom : 3px;
+}
+
+.theparent li {
+	line-height: 175%;
+}
+
+.img {
+	width : 30%;
+	padding-right : 5%;
+}
+
+.img2 {
+	width : 100%;
+}
+
+.img3 {
+	height  : 100%;
+	padding-left : 5%;
+	padding-right : 5%;
+}
+
+div.researchDetail {
+	width : 70%;
+}
+
+div.researchDetail > li {
+	padding-top : 10px;
+	padding-bottom : 20px;
+	font-size : 15px;
+}
+
+div.researchDetail > div.researchDetail2 {
+	width : 90%;
+	padding-bottom : 15px;
+	padding-left : 2%;
+}
