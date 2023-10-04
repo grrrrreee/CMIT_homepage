@@ -141,18 +141,126 @@ class Third extends React.Component {
 							</div>
 						</div>
 						
-						{/* // 1.3 두번째 줄 
+						{/* // 1.3 두번째 줄 */}
 						<div id="p_mother">
-							<div className="p_box">
-								<img className="img3" src={WAM}></img>
-								<div className="p_box_info">
-								<li>이름 : 위아맹</li>
-								<li>석사(2021-2학기 입학)</li>
-								<li>관심주제 : 공사지연분석, 건설 클레임 및 분쟁</li>
+							<div className="p_box2">
+								<img className="img3" src={KIK}></img>
+								<div className="p_box_info2">
+									<li>이름 : 김인겸</li>
+									<li>박사수료 (2022), 석사졸업 (2016)</li>
+									<li>졸업논문 : -</li>
+									<li>현소속 : 한국철도기술연구원</li>
+								</div>
+							</div>
+							<div className="p_box2">
+								<img className="img3" src={KIMDS}></img>
+								<div className="p_box_info2">
+									<li>이름 : 김덕수</li>
+									<li>박사수료 (2022)</li>
+									<li>관심주제 : 사업 기획, 시공, 원가, 건설 클레임, 수도권 트램, 철도,지하철</li>
+									<li>현소속 : 정주건설(주) 대표이사</li>
+								</div>
+							</div>
+							<div className="p_box2">
+								<img className="img3" src={HBH}></img>
+								<div className="p_box_info2">
+									<li>이름 : 한봉희</li>
+									<li>박사수료 (2022)</li>
+									<li>졸업논문 : -</li>
+									<li>현소속 : (사)한국건설관리연구원 부원장</li>
 								</div>
 							</div>
 						</div>
-						*/}
+						{/* // 1.4 세번째 줄 */}
+						<div id="p_mother">
+							<div className="p_box2">
+								<img className="img3" src={RSH}></img>
+								<div className="p_box_info2">
+									<li>이름 : 류상훈</li>
+									<li>박사수료 (2021)</li>
+									<li>졸업논문 : -</li>
+									<li>현소속 : 한국건설기술연구원 국가건설기준센터</li>
+								</div>
+							</div>
+							<div className="p_box2">
+								<img className="img3" src={SDC}></img>
+								<div className="p_box_info2">
+									<li>이름 : 신동철</li>
+									<li>박사수료 (2017)</li>
+									<li>졸업논문 : -</li>
+									<li>현소속 : -</li>
+								</div>
+							</div>
+							<div className="p_box2">
+								<img className="img3" src={PKK}></img>
+								<div className="p_box_info2">
+									<li>이름 : 박기경</li>
+									<li>박사수료 (2017)</li>
+									<li>졸업논문 : -</li>
+									<li>현소속 : 전문건설공제조합</li>
+								</div>
+							</div>
+						</div>
+						{/* // 1.5 네번째 줄 */}
+						<div id="p_mother">
+							<div className="p_box2">
+								<img className="img3" src={HSH}></img>
+								<div className="p_box_info2">
+									<li>이름 : 하승호</li>
+									<li>박사수료 (2007), 석사졸업 (2005)</li>
+									<li>졸업논문 : -</li>
+									<li>현소속 : 칸서스자산운용 주식회사 인프라운용본부 인프라운용2팀 이사/팀장</li>
+								</div>
+							</div>
+							<div className="p_box2">
+								<img className="img3" src={YKH}></img>
+								<div className="p_box_info2">
+									<li>이름 : 양기환</li>
+									<li>박사수료 (2007)</li>
+									<li>졸업논문 : -</li>
+									<li>현소속 : 한국종합기술(주) HSE관리실 상무</li>
+								</div>
+							</div>
+							<div className="p_box2">
+								<img className="img3" src={LYS}></img>
+								<div className="p_box_info2">
+									<li>이름 : 이영수</li>
+									<li>박사수료</li>
+									<li>졸업논문 : -</li>
+									<li>현소속 : -</li>
+								</div>
+							</div>
+						</div>
+						<div id="p_mother">
+							{/* // 1.6 다섯번째 줄 */}
+							<div className="p_box2">
+								<img className="img3" src={LWJ}></img>
+								<div className="p_box_info2">
+									<li>이름 : 이의준</li>
+									<li>석사수료 (2014)</li>
+									<li>졸업논문 : -</li>
+									<li>현소속 : 나무피엠앤씨 차장</li>
+								</div>
+							</div>
+							<div className="p_box2">
+								<img className="img3" src={KBJ}></img>
+								<div className="p_box_info2">
+									<li>이름 : 김반지</li>
+									<li>석사수료</li>
+									<li>졸업논문 : -</li>
+									<li>현소속 : -</li>
+								</div>
+							</div>
+							<div className="p_box2">
+								<img className="img3" src={BSW}></img>
+								<div className="p_box_info2">
+									<li>이름 : 조현정</li>
+									<li>석사수료</li>
+									<li>졸업논문 : -</li>
+									<li>현소속 : -</li>
+								</div>
+							</div>
+						</div>
 					</div>
 				) : null}
 				{/* // 2. 졸업생 시작 */}
@@ -303,97 +411,10 @@ class Third extends React.Component {
 									<li>현소속 : 국토교통과학기술진흥원</li>
 								</div>
 							</div>
-							<div className="p_box2">
-								<img className="img3" src={LYS}></img>
-								<div className="p_box_info2">
-									<li>이름 : 이영수</li>
-									<li>박사수료</li>
-									<li>졸업논문 : -</li>
-									<li>현소속 : -</li>
-								</div>
-							</div>
+							
 						</div>
-						<div id="p_mother">
-							{/* // 2.6 6번째 줄 */}
-							<div className="p_box2">
-								<img className="img3" src={YKH}></img>
-								<div className="p_box_info2">
-									<li>이름 : 양기환</li>
-									<li>박사수료 (2007)</li>
-									<li>졸업논문 : -</li>
-									<li>현소속 : 한국종합기술(주) HSE관리실 상무</li>
-								</div>
-							</div>
-							<div className="p_box2">
-								<img className="img3" src={HSH}></img>
-								<div className="p_box_info2">
-									<li>이름 : 하승호</li>
-									<li>박사수료 (2007), 석사졸업 (2005)</li>
-									<li>졸업논문 : -</li>
-									<li>현소속 : 칸서스자산운용 주식회사 인프라운용본부 인프라운용2팀 이사/팀장</li>
-								</div>
-							</div>
-							<div className="p_box2">
-								<img className="img3" src={PKK}></img>
-								<div className="p_box_info2">
-									<li>이름 : 박기경</li>
-									<li>박사수료 (2017)</li>
-									<li>졸업논문 : -</li>
-									<li>현소속 : 전문건설공제조합</li>
-								</div>
-							</div>
-						</div>
-						<div id="p_mother">
-							{/* // 2.7 7번째 줄 */}
-							<div className="p_box2">
-								<img className="img3" src={SDC}></img>
-								<div className="p_box_info2">
-									<li>이름 : 신동철</li>
-									<li>박사수료 (2017)</li>
-									<li>졸업논문 : -</li>
-									<li>현소속 : -</li>
-								</div>
-							</div>
-							<div className="p_box2">
-								<img className="img3" src={RSH}></img>
-								<div className="p_box_info2">
-									<li>이름 : 류상훈</li>
-									<li>박사수료 (2021)</li>
-									<li>졸업논문 : -</li>
-									<li>현소속 : 한국건설기술연구원 국가건설기준센터</li>
-								</div>
-							</div>
-							<div className="p_box2">
-								<img className="img3" src={HBH}></img>
-								<div className="p_box_info2">
-									<li>이름 : 한봉희</li>
-									<li>박사수료 (2022)</li>
-									<li>졸업논문 : -</li>
-									<li>현소속 : (사)한국건설관리연구원 부원장</li>
-								</div>
-							</div>
-						</div>
-						<div id="p_mother">
-							{/* // 2.8 8번째 줄 */}
-							<div className="p_box2">
-								<img className="img3" src={KIMDS}></img>
-								<div className="p_box_info2">
-									<li>이름 : 김덕수</li>
-									<li>박사수료 (2022)</li>
-									<li>관심주제 : 사업 기획, 시공, 원가, 건설 클레임, 수도권 트램, 철도,지하철</li>
-									<li>현소속 : 정주건설(주) 대표이사</li>
-								</div>
-							</div>
-							<div className="p_box2">
-								<img className="img3" src={KIK}></img>
-								<div className="p_box_info2">
-									<li>이름 : 김인겸</li>
-									<li>박사수료 (2022), 석사졸업 (2016)</li>
-									<li>졸업논문 : -</li>
-									<li>현소속 : 한국철도기술연구원</li>
-								</div>
-							</div>
-						</div>
+						
+
 						<div id="p_mother">
 							{/* // 2.9 9번째 줄 */}
 							<div className="p_box2">
@@ -663,36 +684,7 @@ class Third extends React.Component {
 								</div>
 							</div>
 						</div>
-						<div id="p_mother">
-							{/* // 2.17 17번째 줄 */}
-							<div className="p_box2">
-								<img className="img3" src={KBJ}></img>
-								<div className="p_box_info2">
-									<li>이름 : 김반지</li>
-									<li>석사수료</li>
-									<li>졸업논문 : -</li>
-									<li>현소속 : -</li>
-								</div>
-							</div>
-							<div className="p_box2">
-								<img className="img3" src={BSW}></img>
-								<div className="p_box_info2">
-									<li>이름 : 조현정</li>
-									<li>석사수료</li>
-									<li>졸업논문 : -</li>
-									<li>현소속 : -</li>
-								</div>
-							</div>
-							<div className="p_box2">
-								<img className="img3" src={LWJ}></img>
-								<div className="p_box_info2">
-									<li>이름 : 이의준</li>
-									<li>석사수료 (2014)</li>
-									<li>졸업논문 : -</li>
-									<li>현소속 : 나무피엠앤씨 차장</li>
-								</div>
-							</div>
-						</div>
+						
 					</div>
 				) : null}
 			
